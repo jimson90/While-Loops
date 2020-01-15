@@ -1,0 +1,50 @@
+#Training 1
+
+Jimson = 7
+while Jimson < 24:
+	print(Jimson)
+	Jimson += 1
+
+#This while loops says that while Jimson is less than 24 keep adding 1 (7,8,9,10.....23)
+
+
+#Training 2
+
+Jimson = 7
+while Jimson < 24:
+	print(Jimson)
+	if Jimson == 11:
+		break
+	Jimson += 1
+
+#This piece of code means that while Jimson is less than 24 keep adding one, but if the output equals 11 stop the loop.
+
+
+#Training 3 
+
+Jimson = 7
+while Jimson < 24:
+	Jimson += 1
+	if Jimson == 11:
+		continue
+	print(Jimson)
+	
+#While Jimson is less than 24 keep adding 1 but if it equals 11 skip over the 11 and continue
+
+#Training 4
+
+Jimson = 7
+while Jimson < 24:
+	print(Jimson)
+	Jimson += 1
+else:
+	print("Jimson is no longer less than 24")
+	
+#Else statment makes it so that if the code goes to 24 it will output "Jimson is no longer less than 24"
+
+
+	
+
+
+
+
